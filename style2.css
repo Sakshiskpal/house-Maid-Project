@@ -1,0 +1,66 @@
+
+/* 
+    Created on : 05-Apr-2023, 9:46:08 am
+    Author     : Hp
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*=---------------------------------------------------seeting css*/
+.header-setting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #00cc00;
+        ;
+}
+.main-seeting{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: appworkspace;
+}
+.main-seeting .section-1{
+    width: 350px;
+    height: 500px;
+    background-color: lightseagreen;
+}
+.main-seeting .section-1 .settings-option{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffooff;
+    border-bottom: 1px solid #fff; 
+    height: 80px;
+    margin: 10px;
+}
+.settings-option a{
+    text-decoration: none;
+    color: #fff;
+}
+.main-seeting .section-2{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+}
+.main-seeting .section-2 .item{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border: 1px solid black;
+}
+.footer-setting{
+    width: 100%;
+    height: 200px;
+    background-color: skyblue;
+}
+

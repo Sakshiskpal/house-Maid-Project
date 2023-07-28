@@ -1,0 +1,112 @@
+/* 
+    Created on : 27-Mar-2023, 7:16:26 pm
+    Author     : Hp
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*---------------------------------------------------view worker table-------------------------------------------------*/
+.container{
+    width: 100%;
+    display: flex;
+    background-color: red;
+    height: 100vh;
+}
+.container .row{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.container .row .data_items{
+    background-color: lightblue;
+}
+h2{
+    color: red;
+}
+table{
+    /*background-color: blue;*/
+    width: 100%;
+    padding: 30px;
+}
+/*-------------------------------------------------login form---------------------------------------------*/
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+    width: 150px;
+    height: 150px;
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 500px;
+    border: 2px solid #000;
+    border-radius: 30px;
+    margin: 30px;
+    box-shadow: #000 5px;
+}
+.login_form .login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.table{
+    width: 100%;
+    height: 100%;
+}
+.trstyle{
+    border: 1px solid #000;
+    border-radius: 10px;
+    color: #000;
+}
+.tdstyle{
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.tdstyle a{
+    text-decoration: none;
+    color: #000;
+}
+.tdstyle .text_field{
+    background: transparent;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    color: #000;
+
+}
+.tdstyle .buttonsign{
+    border: 1px solid #000;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: #000;
+    transition:0.5 ease;
+    font-size: 18px;
+    background: transparent;
+}
+.tdstyle .buttonsign:hover{
+    background: #000;
+    color: #00cc00;
+}
+/*-------------------------------------------------add worker style*/
+.add-worker-form{
+    background-color: lightgreen;
+}
